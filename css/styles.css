@@ -1,0 +1,36 @@
+body{
+    /**background-image: linear-gradient(to bottom, #ff0000, #de0002, #be0004, #9e0003, #800000);
+    background-size: auto;
+    background-repeat: no-repeat;*/
+    background-color: red;
+}
+
+img{
+    background-color: black;
+    border-radius: 50%;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+}
+.type{
+    margin-left:2rem ;
+}
+.pokemoncontainer{
+    background-color: #F0F7F4;
+    width: 160px;
+    text-align: center;
+    padding: 50px 25px;
+    margin: 20px;
+    border-radius: 9px;
+    border-style: solid
+}
+
+.pokemon-img{
+    font-size: 80px;
+    padding: 20px;
+}
