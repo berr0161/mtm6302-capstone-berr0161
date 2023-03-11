@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/styles.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/32568561d7.js" crossorigin="anonymous"></script>
+  <title>Capstone Project Part 3 - Prototype</title>
 </head>
+
 <body>
-    
-<main id="main">
-    <div>
-        <p>Charizard</p>                    
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"/> 
-       <span>Fire</span>
-    
-    </div>
-</main>
 
+  <header>
+    <form style="display: flex; flex-direction: column; align-items: center; gap: 8px;" >
+      <div class="images">
+        <img class="logo" src="/images/pokemon-logo.png">
+        <img class="title" src="images/pokemon-title.png">
+      </div>
+      <h2>Pokémon name or number</h2>
+      <label for="search"></label>
+      <div style="position: relative;">
+        <i style="position: absolute;" class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="search" name="search">
+      </div>
+      <i class="fa-solid fa-circle-chevron-right"></i>
+    </form>
+  </header>
 
-    <script src= "main.js"></script> 
+  <div id="pokedex-container" class="pokedex-container"></div>
+
+  <footer>
+    <img class="title" src="images/pokemon-title.png">
+  </footer>
+
+<script src="main.js"></script>
 </body>
+
 </html>

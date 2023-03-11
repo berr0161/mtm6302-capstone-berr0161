@@ -4,6 +4,20 @@ body{
     background-repeat: no-repeat;*/
     background-color: red;
 }
+header {
+    background-color: #292C33;
+    height: 300px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.title {
+    height: 100px;
+    width: 300px;
+}
 
 img{
     background-color: black;
