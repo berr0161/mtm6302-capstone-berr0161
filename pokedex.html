@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +9,92 @@
     <script src="https://kit.fontawesome.com/32568561d7.js" crossorigin="anonymous"></script>
     <title>Capstone Project Part 3 - Prototype</title>
 </head>
+
 <body>
     <header>
-        <form>
+        <form style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
             <div class="images">
                 <img class="logo" src="/images/pokemon-logo.png">
                 <img class="title" src="images/pokemon-title.png">
             </div>
+            <h2>Pokémon name or number</h2>
             <label for="search"></label>
-            <input type="text" id="search" name="search">
-            <button type="submit">Search</button>
-          </form>
-          <h2>Pokémon name or number</h2>
-          <i class="fa-solid fa-circle-chevron-right"></i>
+            <div style="position: relative;">
+                <i style="position: absolute;" class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search" name="search">
+            </div>
+            <i class="fa-solid fa-circle-chevron-right"></i>
+        </form>
     </header>
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png">
+    <h3>Bulbasaur #001</h3>
+
+    <p>There is a plant seed on its back right from the day bBulbasaur is born. The seed slowly grows larger </p>
+
+
+    
+<div class="info">
+    <ul>
+        <li>Height:
+            <ul>
+                <li>2'04"</li>
+            </ul>
+        </li>
+        <li>Gender:
+            <ul>
+                <li>♂</li>
+                <li>♀</li>
+            </ul>
+        </li>
+        <li>Category:
+            <ul>
+                <li>Seed</li>
+            </ul>
+        </li>
+        <li>Abilities:
+            <ul>
+                <li>Overgrow</li>
+                <li>Chlorophyll (hidden ability)</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <div class="evolutions">
+        <h3>Evolutions</h3>
+        <ul>
+            <li>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+                    alt="Bulbasaur">
+                <p>Pokémon #001</p>
+                <p>Type: Grass/Poison</p>
+            </li>
+            <li>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png" alt="Ivysaur">
+                <p>Pokémon #002</p>
+                <p>Type: Grass/Poison</p>
+            </li>
+            <li>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+                    alt="Venusaur">
+                <p>Pokémon #003</p>
+                <p>Type: Grass/Poison</p>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <img class="title" src="images/pokemon-title.png">
+    </footer>
+</body>
+
+</html>
