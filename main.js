@@ -33,7 +33,7 @@ function getPokemons(){
                 const types = []
 
                 for (const type of detailPokemon.types) {
-                    types.push(`<button class="pokemon-type ${type.type.name}">${type.type.name}</button>`)
+                    types.push(`<span class="pokemon-type ${type.type.name}">${type.type.name}</span>`)
                     console.log(type)
                 }
                 html.push(`
@@ -41,7 +41,7 @@ function getPokemons(){
                         <div class="pokemon-image">
                             <img src="${detailPokemon.sprites.front_default}" alt="${pokemon.name}">
                         </div>
-                        <h3>#${addZero(detailPokemon.id)}</h3>
+                        <span class="number">#${addZero(detailPokemon.id)}</span>
                         <div class="pokemon-details">
                             <h3 class="pokemon-name">${pokemon.name}</h3>                 
                             <div class="pokemon-types">
@@ -56,5 +56,4 @@ function getPokemons(){
 }
 
 getPokemons()
-          
 
