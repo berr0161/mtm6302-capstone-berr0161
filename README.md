@@ -44,6 +44,8 @@ Agter all of this it was more of finishing some details lyke styling the buttons
 
 This was a really long part of the project. It took me a whole day to finish my whole javascript, transfering everything I had form detail-pokemon.js, creating the buttons to clean the pages so It didin't reload. As I said, the hardest part for me was the bars, and maybe the local storage becuase I noticed that everytime I cliked on the pokeball, I was able to save the pokemon multiple times, but eventually I went back to the lessons and figure it out.
 
+I did have some fun and stress, but I learned a lot during this capstone project
+
 
 
 
